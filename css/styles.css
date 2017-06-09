@@ -78,6 +78,7 @@ p {
 /*OUR STORY SECTION*/
 #story {
   padding-top: 5%;
+  margin-bottom: 9%;
 }
 
 #story h1.orange-text {
@@ -103,4 +104,29 @@ p {
 .year-text~p {
   font-weight: 300;
   line-height: 18px;
+}
+
+/*REVIEW SECTION*/
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  padding-top: 6%;
+}
+
+.review-background {
+  background-color: rgba(0, 0, 0, .45);
+  border-radius: 4px;
+}
+
+#review h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 54px;
+}
+
+.review-text {
+  color: #ffffff;
+  font-size: 20px;
 }
