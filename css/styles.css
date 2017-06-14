@@ -1,7 +1,9 @@
 /*FONTS*/
+
 @import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:300,400,700');
 
 /*GLOBALS*/
+
 p {
   font-family: 'Raleway', sans-serif;
 }
@@ -19,6 +21,7 @@ p {
 }
 
 /*HEADER STYLES*/
+
 .navbar {
   background-color: transparent;
   border: none;
@@ -38,6 +41,7 @@ p {
 }
 
 /*CAROUSEL STYLES*/
+
 .item {
   height: 535px;
   background-position: center;
@@ -76,6 +80,7 @@ p {
 }
 
 /*OUR STORY SECTION*/
+
 #story {
   padding-top: 5%;
   margin-bottom: 9%;
@@ -107,6 +112,7 @@ p {
 }
 
 /*REVIEW SECTION*/
+
 #review {
   background-image: url('../img/food_review.jpg');
   background-attachment: fixed;
@@ -129,4 +135,29 @@ p {
 .review-text {
   color: #ffffff;
   font-size: 20px;
+}
+
+/*MENU STYLES*/
+
+#menu {
+  min-height: 600px;
+  background-image: url('../img/black_linen.png');
+  padding: 5% 0;
+}
+
+#menu .nav-tabs>li>a.orange-text:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: #f8512f;
+}
+
+.food {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.menu-title {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
 }
