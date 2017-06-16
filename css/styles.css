@@ -164,6 +164,7 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
-.asterisk {
+.asterisk:after {
+  content: '*';
   color: #ff0000;
 }
