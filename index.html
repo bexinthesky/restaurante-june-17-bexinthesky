@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body data-spy="scroll">
 	<!-- Main Content Goes Here -->
 	<header class="container-fluid">
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -27,11 +27,11 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right text-shadow">
-		        <li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Our Story</a></li>
-						<li><a href="#">Review</a></li>
-						<li><a href="#">Menu</a></li>
-						<li><a href="#">Contact Us</a></li>
+		        <li class="active"><a href="#home">Home</a></li>
+						<li><a href="#story">Our Story</a></li>
+						<li><a href="#review">Review</a></li>
+						<li><a href="#menu">Menu</a></li>
+						<li><a href="#contact">Contact Us</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -45,9 +45,8 @@
 	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 	  </ol>
-
 	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
+	  <div class="carousel-inner" role="listbox" id="home">
 	    <div class="item active" id="wood-background"> <!-- First Slide -->
 	      <img src="img/logo-01.png" alt="Carousel Logo" class="img-responsive center-block" id="restaurante-img">
 	    </div>
