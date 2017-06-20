@@ -4,12 +4,20 @@
 
 /*GLOBALS*/
 
+body {
+  position: relative;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
 }
 
 .orange-text {
   color: #f8512f;
+}
+
+.white-text {
+  color: #fff;
 }
 
 .orange-background {
@@ -161,3 +169,36 @@ p {
   color: #fff;
   font-size: 5em;
 }
+
+/*CONTACT SECTION*/
+
+#contact {
+  background-color: #f8512f;
+  padding: 3% 20% 0 15%;
+}
+
+#contact .col-sm-12.text-justify>h1.contact-text.text-uppercase+p {
+  padding-bottom: 50px;
+}
+
+.contact-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.contact-form {
+  background-color: #FF6633;
+  padding: 10px 20px 30px 20px;
+}
+
+#contact .col-sm-6>.center-block {
+  width: 50%;
+}
+
+.address-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.asterisk:after {
+  content: '*';
+  color: #ff0000;
